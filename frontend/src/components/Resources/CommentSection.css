@@ -1,0 +1,167 @@
+.comment-section {
+  margin-top: 40px;
+}
+
+.comment-section h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.comment-form {
+  margin-bottom: 30px;
+}
+
+.comment-form .btn {
+  margin-top: 10px;
+}
+
+.login-prompt {
+  background-color: #fff3cd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-prompt a {
+  color: #3498db;
+  font-weight: 500;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.comment.reply {
+  margin-left: 40px;
+  background-color: #f8f9fa;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-author {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comment-author strong {
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #95a5a6;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.btn-delete:hover {
+  background-color: #fee;
+}
+
+.comment-content {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-like {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-like:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-like.liked {
+  color: #e74c3c;
+}
+
+.btn-reply {
+  background: none;
+  border: none;
+  color: #3498db;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-reply:hover {
+  background-color: #e3f2fd;
+}
+
+.reply-form {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.reply-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.no-comments {
+  text-align: center;
+  padding: 40px 20px;
+  color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .comment.reply {
+    margin-left: 20px;
+  }
+}
+

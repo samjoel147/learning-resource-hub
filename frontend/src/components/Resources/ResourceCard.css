@@ -1,0 +1,147 @@
+.resource-card {
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+}
+
+.resource-card .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease;
+}
+
+.resource-card:hover .card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.resource-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.category-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.category-notes {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.category-tutorial {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.category-code-snippet {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
+.category-video {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.category-document {
+  background-color: #fce4ec;
+  color: #c2185b;
+}
+
+.category-other {
+  background-color: #f5f5f5;
+  color: #616161;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.rating span:not(.rating-value) {
+  color: #ffc107;
+}
+
+.star-empty {
+  color: #ddd !important;
+}
+
+.rating-value {
+  color: #666;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.resource-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.resource-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.resource-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
+
+.resource-author {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.resource-stats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.tags {
+  display: flex;
+  gap: 5px;
+}
+
+.tag {
+  background-color: #ecf0f1;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #34495e;
+}
+
+.resource-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  color: #95a5a6;
+}
+
+.resource-date {
+  font-weight: 500;
+}
+
